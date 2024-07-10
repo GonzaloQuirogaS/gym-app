@@ -1,4 +1,4 @@
-package com.app.gym_management.controllers;
+package com.app.gym_management.config;
 
 import io.swagger.v3.oas.annotations.OpenAPIDefinition;
 import io.swagger.v3.oas.annotations.info.Info;
