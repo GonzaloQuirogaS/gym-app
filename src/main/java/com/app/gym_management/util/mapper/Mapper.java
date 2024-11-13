@@ -1,11 +1,11 @@
-package com.app.gym_management.mapper;
+package com.app.gym_management.util.mapper;
 
-import com.app.gym_management.dto.ClientDto;
-import com.app.gym_management.dto.DisciplineDto;
-import com.app.gym_management.dto.InvoiceDto;
-import com.app.gym_management.persistance.models.Client;
-import com.app.gym_management.persistance.models.Discipline;
-import com.app.gym_management.persistance.models.Invoice;
+import com.app.gym_management.presentation.dto.client.ClientDto;
+import com.app.gym_management.presentation.dto.discipline.DisciplineDto;
+import com.app.gym_management.presentation.dto.invoice.InvoiceDto;
+import com.app.gym_management.persistence.entity.Client;
+import com.app.gym_management.persistence.entity.Discipline;
+import com.app.gym_management.persistence.entity.Invoice;
 import org.springframework.stereotype.Service;
 
 @Service

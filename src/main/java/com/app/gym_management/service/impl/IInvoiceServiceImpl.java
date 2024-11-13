@@ -1,10 +1,10 @@
 package com.app.gym_management.service.impl;
 
-import com.app.gym_management.dto.InvoiceDto;
-import com.app.gym_management.mapper.Mapper;
-import com.app.gym_management.persistance.models.Invoice;
-import com.app.gym_management.persistance.repository.InvoiceRepository;
-import com.app.gym_management.service.IInvoiceService;
+import com.app.gym_management.presentation.dto.invoice.InvoiceDto;
+import com.app.gym_management.util.mapper.Mapper;
+import com.app.gym_management.persistence.entity.Invoice;
+import com.app.gym_management.persistence.repository.InvoiceRepository;
+import com.app.gym_management.service.interfaces.IInvoiceService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

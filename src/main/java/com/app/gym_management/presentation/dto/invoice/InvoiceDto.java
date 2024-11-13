@@ -1,4 +1,4 @@
-package com.app.gym_management.dto;
+package com.app.gym_management.presentation.dto.invoice;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

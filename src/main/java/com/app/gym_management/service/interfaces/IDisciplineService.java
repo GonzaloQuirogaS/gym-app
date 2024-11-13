@@ -1,8 +1,8 @@
-package com.app.gym_management.service;
+package com.app.gym_management.service.interfaces;
 
-import com.app.gym_management.dto.DisciplineDto;
-import com.app.gym_management.dto.SaveDisciplineDto;
-import com.app.gym_management.persistance.models.Discipline;
+import com.app.gym_management.presentation.dto.discipline.DisciplineDto;
+import com.app.gym_management.presentation.dto.discipline.SaveDisciplineDto;
+import com.app.gym_management.persistence.entity.Discipline;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package com.app.gym_management.dto;
+package com.app.gym_management.presentation.dto.discipline;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

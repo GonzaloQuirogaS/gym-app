@@ -1,11 +1,11 @@
 package com.app.gym_management.service.impl;
 
-import com.app.gym_management.dto.DisciplineDto;
-import com.app.gym_management.dto.SaveDisciplineDto;
-import com.app.gym_management.mapper.Mapper;
-import com.app.gym_management.persistance.models.Discipline;
-import com.app.gym_management.persistance.repository.DisciplineRepository;
-import com.app.gym_management.service.IDisciplineService;
+import com.app.gym_management.presentation.dto.discipline.DisciplineDto;
+import com.app.gym_management.presentation.dto.discipline.SaveDisciplineDto;
+import com.app.gym_management.util.mapper.Mapper;
+import com.app.gym_management.persistence.entity.Discipline;
+import com.app.gym_management.persistence.repository.DisciplineRepository;
+import com.app.gym_management.service.interfaces.IDisciplineService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

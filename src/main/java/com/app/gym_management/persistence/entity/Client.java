@@ -1,4 +1,4 @@
-package com.app.gym_management.persistance.models;
+package com.app.gym_management.persistence.entity;
 
 import jakarta.persistence.*;
 import jakarta.validation.constraints.*;

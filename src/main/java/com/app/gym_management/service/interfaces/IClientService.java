@@ -1,8 +1,8 @@
-package com.app.gym_management.service;
+package com.app.gym_management.service.interfaces;
 
-import com.app.gym_management.dto.ClientDto;
-import com.app.gym_management.dto.SaveClientDto;
-import com.app.gym_management.persistance.models.Client;
+import com.app.gym_management.presentation.dto.client.ClientDto;
+import com.app.gym_management.presentation.dto.client.SaveClientDto;
+import com.app.gym_management.persistence.entity.Client;
 
 import java.util.List;
 

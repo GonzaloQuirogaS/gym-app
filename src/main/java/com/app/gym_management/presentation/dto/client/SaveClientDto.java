@@ -1,4 +1,4 @@
-package com.app.gym_management.dto;
+package com.app.gym_management.presentation.dto.client;
 
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;
@@ -12,10 +12,19 @@ import java.io.Serializable;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class SaveDisciplineDto implements Serializable {
+public class SaveClientDto implements Serializable {
+
     @NotBlank
     @Size(min = 3)
     private String name;
+    @NotBlank
+    @Size(min = 3)
+    private String surname;
     @NotNull
-    private Integer price;
+    private Integer age;
+    @NotBlank
+    private String email;
+    @NotNull
+    private Long phone;
+
 }

@@ -1,11 +1,11 @@
 package com.app.gym_management.service.impl;
 
-import com.app.gym_management.dto.ClientDto;
-import com.app.gym_management.dto.SaveClientDto;
-import com.app.gym_management.mapper.Mapper;
-import com.app.gym_management.persistance.models.Client;
-import com.app.gym_management.persistance.repository.ClientRepository;
-import com.app.gym_management.service.IClientService;
+import com.app.gym_management.presentation.dto.client.ClientDto;
+import com.app.gym_management.presentation.dto.client.SaveClientDto;
+import com.app.gym_management.util.mapper.Mapper;
+import com.app.gym_management.persistence.entity.Client;
+import com.app.gym_management.persistence.repository.ClientRepository;
+import com.app.gym_management.service.interfaces.IClientService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

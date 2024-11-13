@@ -1,7 +1,7 @@
-package com.app.gym_management.dto;
+package com.app.gym_management.presentation.dto.client;
 
-import com.app.gym_management.persistance.models.Discipline;
-import com.app.gym_management.persistance.models.Invoice;
+import com.app.gym_management.persistence.entity.Discipline;
+import com.app.gym_management.persistence.entity.Invoice;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 

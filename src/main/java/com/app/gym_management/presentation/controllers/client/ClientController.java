@@ -1,13 +1,13 @@
-package com.app.gym_management.controllers;
+package com.app.gym_management.presentation.controllers.client;
 
-import com.app.gym_management.dto.ClientDto;
-import com.app.gym_management.dto.SaveClientDto;
-import com.app.gym_management.persistance.models.Client;
-import com.app.gym_management.persistance.models.Discipline;
-import com.app.gym_management.persistance.models.Invoice;
-import com.app.gym_management.service.IClientService;
-import com.app.gym_management.service.IDisciplineService;
-import com.app.gym_management.service.IInvoiceService;
+import com.app.gym_management.presentation.dto.client.ClientDto;
+import com.app.gym_management.presentation.dto.client.SaveClientDto;
+import com.app.gym_management.persistence.entity.Client;
+import com.app.gym_management.persistence.entity.Discipline;
+import com.app.gym_management.persistence.entity.Invoice;
+import com.app.gym_management.service.interfaces.IClientService;
+import com.app.gym_management.service.interfaces.IDisciplineService;
+import com.app.gym_management.service.interfaces.IInvoiceService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import jakarta.validation.Valid;

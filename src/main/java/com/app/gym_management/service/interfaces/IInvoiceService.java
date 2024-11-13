@@ -1,7 +1,7 @@
-package com.app.gym_management.service;
+package com.app.gym_management.service.interfaces;
 
-import com.app.gym_management.dto.InvoiceDto;
-import com.app.gym_management.persistance.models.Invoice;
+import com.app.gym_management.presentation.dto.invoice.InvoiceDto;
+import com.app.gym_management.persistence.entity.Invoice;
 
 import java.util.List;
 

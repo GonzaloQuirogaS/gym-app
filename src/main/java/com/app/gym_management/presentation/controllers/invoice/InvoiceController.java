@@ -1,7 +1,7 @@
-package com.app.gym_management.controllers;
+package com.app.gym_management.presentation.controllers.invoice;
 
-import com.app.gym_management.dto.InvoiceDto;
-import com.app.gym_management.service.IInvoiceService;
+import com.app.gym_management.presentation.dto.invoice.InvoiceDto;
+import com.app.gym_management.service.interfaces.IInvoiceService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import lombok.RequiredArgsConstructor;
